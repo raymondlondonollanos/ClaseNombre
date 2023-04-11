@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Inicial</Filter>
+    </ClCompile>
+    <ClCompile Include="Name.cpp">
+      <Filter>Recursos</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Inicial">
+      <UniqueIdentifier>{5a60c505-9243-4e1e-b179-02325960341f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Recursos">
+      <UniqueIdentifier>{e6f308a1-16da-47f8-8534-45a12472993b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Name.h">
+      <Filter>Recursos</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
